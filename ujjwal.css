@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	font-family: arial;
+	border: border-box;
+}
+.navbar{
+	height: 100px;
+	background-color: #25BE2A;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 1.5rem;
+	letter-spacing: 1px; 
+	
+}
+.img-section {
+	background-image: url(demo.jpg);
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+.shop-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: #25BE2A;
+
+}
+.box{
+	/**border: 2px solid black;**/
+	height: 400px;
+	width: 23%;
+	background-color: white;
+	padding: 20px 0px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-table;
+
+}
+.box-content {
+	text-align: center;
+}
+.box-img{
+	height: 350px;
+	background-size: cover;
+
+
+}
+.box-content{
+	margin-left: 1rem;
+	margin-right:1rem;
+
+}
+.inline-box{
+	display: inline-flex;
+}
+.image {
+	background-image: url(demo2.jpg);
+	background-size: cover;
+	height: 380px;
+	width: 100%;
+}
+.image1{
+	background-image: url(demm.jpg);
+	background-size: cover;
+	height: 380px;
+	width: 100%;
+
+}
+/** footer **/
+footer{
+	margin-top: 15px;
+}
+
+.foot-panel1{
+	background-color: #37475a;
+	color: white;
+	height: px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
